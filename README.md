@@ -1,33 +1,47 @@
-# What is it?
+# What is it? 这是什么？
 
 ProperTree is a cross-platform GUI plist editor written using Python *(compatible with both 2.x and 3.x)* and Tkinter.
+ProperTree 是一个使用 Python *(兼容 2.x 和 3.x)* 和 Tkinter 编写的跨平台 GUI plist 编辑器。
 
-## Features
+## Features 特点
 
 - [x] Cross-platform - should work anywhere python and tkinter do
+- [x] 跨平台 - 应该在任何安装了Python和Tkinter的地方都能工作
 - [x] Document-based to support multiple windows
+- [x] 基于文档以支持多窗口
 - [x] Node drag and drop to reorder
+- [x] 节点拖放以重新排序
 - [x] Copy and paste
+- [x] 复制和粘贴
 - [x] Find/Replace - allows searching keys or values
+- [x] 查找/替换 - 允许搜索键或值
 - [x] Ordered - or unordered - dictionary support
+- [x] 有序 - 或无序 - 字典支持
 - [x] Full undo-redo stack
+- [x] 支持完整的撤消-重做堆栈
 - [x] Backported support for binary property lists and unicode in python 2
+- [x] 向后兼容的二进制属性列表和Python 2中的Unicode支持
 - [x] Expanded integer casting to allow for hex integers (eg. `0xFFFF`) in xml `<integer>` tags
+- [x] 扩展整数转换以允许在XML `<integer>` 标签中使用十六进制整数（例如 `0xFFFF`）
 - [x] Context-aware right-click menu that includes template info to OpenCore or Clover config.plist files
+- [x] 上下文感知右键菜单，包含OpenCore或Clover config.plist文件的模板信息
 - [x] OC (Clean) Snapshot to walk the contents of ACPI, Drivers, Kexts, and Tools for OpenCore config.plist files
+- [x] OC（清理）快照，用于浏览 ACPI、驱动程序、Kexts 和 OpenCore config.plist 文件工具的内容
 - [x] Value converter that supports Base64, Hex, Ascii, and Decimal
+- [x] 支持 Base64、Hex、Ascii 和 Decimal 的值转换器
 
 ***
 
-## Getting ProperTree
+## Getting ProperTree 获取
 
-### Downloading The Repo As A ZIP File
+### Downloading The Repo As A ZIP File 下载
 
 On any system you can choose the green `Code` button, followed by the `Download ZIP` button (or click [here](https://github.com/corpnewt/ProperTree/archive/refs/heads/master.zip)) to download the entire repo as a zip file (note, this does not allow you to update via `git pull` - any updates would require you to download the repo again in the same fashion).
+在任何系统上，您都可以选择绿色的 `Code` 按钮, 然后选择 `Download ZIP` 按钮（或单击此处 [here](https://github.com/corpnewt/ProperTree/archive/refs/heads/master.zip)) 以将整个存储库作为zip文件下载 (请注意，这不允许您通过 `git pull` - 进行更新 - 任何更新都需要以相同的方式重新下载存储库).
 
-### Cloning The Repo Via Git
+### Cloning The Repo Via Git 通过 Git 克隆存储库
 
-#### On *nix systems:
+#### On *nix systems:  *nix 系统
 
 ```
 git clone https://github.com/corpnewt/ProperTree
@@ -37,8 +51,9 @@ python3 ./ProperTree/ProperTree.py
 ```
 
 \* On macOS, you can simply double-click the `ProperTree.command` after cloning to launch.
+\* 在 macOS 上，您只需在克隆后双击 `ProperTree.command` 后即可启动。
 
-#### On Windows:
+#### On Windows: Windows系统
 
 ```
 git clone https://github.com/corpnewt/ProperTree
